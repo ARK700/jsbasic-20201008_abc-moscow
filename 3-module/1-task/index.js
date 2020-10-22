@@ -3,5 +3,14 @@
  * @returns {string[]}  объект
  */
 function namify(users) {
-  // ваш код...
+  let i = 0;
+  let kostyl = [];
+  while(i < users.length){
+      let orange = users[i];
+      orange = orange.name;
+      kostyl.push(orange);
+      i++;
+
+          }
+  return kostyl;
 }
